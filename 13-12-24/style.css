@@ -1,0 +1,181 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.main{
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+h1{
+    font-family: "segoe UI";
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-size: 20px;
+    /* display: inline-block;
+    text-align: center; */
+    /* padding-left: 500px; */
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: "Inconsolata", monospace;
+    font-size: 18px;
+    transition: 1s ease;
+}
+.a, .b, .c, .d{
+    transition: 1s ease;
+    padding: 20px;
+}
+.main1{
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main1>img{
+    width: 100%;
+    height: 75%;
+    position: absolute;
+}
+.item1, .item2, .item3{
+    color: white;
+    position: relative;
+    margin: 0px 40px;
+    font-family: "Inconsolata", monospace;
+}
+.item1{
+    background-color: black;
+    align-self: flex-end;
+}
+.item2{ 
+    height: 290px;
+    width: 60px;
+    margin-right: 120px;
+    font-size: 100px;
+    font-family: "Inconsolata", monospace;
+    line-height: 140px;
+}
+.item3{
+    align-self: flex-end;
+}
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+} 
+.main2{
+    padding: 10px;
+    position: relative;
+    margin: 50px 300px;
+    text-align: center;
+}
+.item4, .item5, .item6, .item7, .item8{
+    margin: 10px 10px;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    text-align: start;
+    line-height:  30px;
+}
+.item6{
+    border-left: 5px solid gray;
+}
+.main3{
+    padding: 10px;
+    position: relative;
+    margin: 50px 300px;
+    border: 2px solid black;
+    box-shadow: 5px 5px grey;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main4{
+    padding: 10px;
+    position: relative;
+    margin: 0px 300px;
+    border: 2px solid black;
+    box-shadow: 5px 5px grey;
+}
+.item9, .item10{
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    text-align: start;
+    transition: 1s ease;
+}
+h3, p{
+    padding: 10px;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    text-align: start;
+}
+p{
+    color: grey;
+}
+.main4~img{
+    width: 100%;
+    padding: 20px 300px;
+}
+.main5{
+    padding: 10px;
+    margin: 0px 300px;
+    text-align: start;
+}
+.main5>img{
+    width: 100%;
+}
+.item11, .item12, .item13{
+    margin: 20px 5px;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    text-align: start;
+}
+span{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 20px;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    text-align: start;
+}
+button{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    text-align: start;
+    transition: 1s ease;
+}
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Inconsolata", monospace;
+    font-size: 18px;
+}
+button:hover{
+    color: black;
+    background-color: rgb(227, 216, 216);
+}
+.a:hover>a, .b:hover>a, .c:hover>a, .d:hover>a{
+    color: black;
+    background-color: rgb(227, 216, 216);
+}
+.item9:hover, .item10:hover{
+    color: white;
+    background-color: rgb(68, 60, 60);
+}
+
