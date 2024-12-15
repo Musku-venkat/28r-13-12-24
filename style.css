@@ -109,13 +109,25 @@ h1{
     align-items: center;
 }
 
-.main4{
-    padding: 10px;
-    position: relative;
+.item9, .item10{
+    text-align: center;
+}
+iframe{
+    width: 915px;
+    height: 500px;
+    padding: 25px;
     margin: 0px 300px;
-    border: 2px solid black;
+    position: relative;
+    border: 2px solid;
+    font-family: "Inconsolata", monospace;
     box-shadow: 5px 5px grey;
 }
+
+.main3 a{
+    color: black;
+    text-decoration: none;
+}
+
 .item9, .item10{
     width: 100%;
     font-family: "Inconsolata", monospace;
@@ -132,7 +144,8 @@ h3, p{
 p{
     color: grey;
 }
-.main4~img{
+
+iframe~img{
     width: 100%;
     padding: 20px 300px;
 }
@@ -207,4 +220,10 @@ button:hover{
     color: white;
     background-color: rgb(68, 60, 60);
 }
+
+.item9:hover>a, .item10:hover>a{
+    color: white;
+}
+
+
 
